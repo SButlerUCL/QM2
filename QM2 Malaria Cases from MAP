@@ -1,0 +1,54 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPI+5maay8n07oTb1ZsF96X",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/SButlerUCL/QM2/blob/main/QM2%20Malaria%20Cases%20from%20MAP\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "UAD1Khgo8WBt"
+      },
+      "outputs": [],
+      "source": [
+        "!mkdir data"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "!mkdir ./data/wk1\n",
+        "!curl https://s3.eu-west-2.amazonaws.com/qm2/wk1/data.csv -o ./data/wk1/data.csv\n",
+        "!curl https://s3.eu-west-2.amazonaws.com/qm2/wk1/sample_group.csv -o ./data/wk1/sample_group.csv"
+      ],
+      "metadata": {
+        "id": "JlAib8CBGXYh"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
